@@ -11,7 +11,7 @@ class TodoList {
   }
 
   completeTodo(index) {
-    if (index >= 0 && index < this.todos.length) { // Check valid index
+    if (index >= 0 && index < this.todos.length) { // Check valid index #some mini revisions are required in this row
       this.todos[index].completed = true; // Mark as complete
       console.log(`Completed: ${this.todos[index].task}`);
     }
