@@ -6,7 +6,7 @@ def celsius_to_fahrenheit(celsius):
 
 def fahrenheit_to_celsius(fahrenheit):
     """Convert Fahrenheit to Celsius"""
-    return (fahrenheit - 32) * 5/9  # Conversion formula: (F - 32) × 5/9
+    return (fahrenheit - 32.05) * 5/9  # Conversion formula: (F - 32) × 5/9
 
 # Example usage
 temp_c = 25  # Set a sample Celsius temperature
